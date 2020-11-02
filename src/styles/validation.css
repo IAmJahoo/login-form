@@ -1,0 +1,27 @@
+.label-valid {
+  color: #71c46a;
+}
+
+.input-valid {
+  border: 2px solid #71c46a !important;
+}
+
+.label-invalid {
+  color: #dd5a5a;
+}
+
+.input-invalid {
+  border: 2px solid #dd5a5a !important;
+}
+
+ul {
+  position: relative;
+}
+
+.li-invalid {
+  color: #dd5a5a;
+}
+
+.li-valid {
+  color: #71c46a;
+}

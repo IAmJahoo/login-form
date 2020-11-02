@@ -1,0 +1,78 @@
+fieldset {
+  position: absolute;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+  background-color: rgb(242, 244, 248);
+  border: none;
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 2.2rem;
+  min-height: 2.5rem;
+  font-size: 1.1rem;
+  font-family: "Dosis", sans-serif;
+  padding: 0 0.6rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem 0 1.5rem;
+  border: none;
+  background-color: rgb(242, 244, 248);
+  box-shadow: rgba(0, 0, 0, 0.212) 3px 3px 6px 0px inset,
+    rgb(255, 255, 255) -3px -3px 6px 0px inset;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  padding: 0.7rem 0;
+  width: 12rem;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  background-color: rgba(255, 245, 189, 0.979);
+  border: none;
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25), -4px -4px 8px 0px #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(255, 245, 189, 0.979);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6), -4px -4px 8px 0px #fff;
+}
+
+input[type="submit"]:active {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25) inset,
+    -4px -4px 8px 0px #fff inset;
+}
+
+section.failure {
+  padding: 0.8rem;
+  background-color: #dd5a5a66;
+  border: 1px solid #dd5a5a;
+  color: #4d0a0a;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 420px) {
+  fieldset {
+    width: 400px;
+    height: 500px;
+    top: 60px;
+    left: calc(50vw - 200px);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.144), -4px -4px 8px 0px #fff;
+  }
+}

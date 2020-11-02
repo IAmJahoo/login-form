@@ -1,0 +1,24 @@
+section.success {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  background-color: #72c46a66;
+  border: 1px solid #72c46a;
+  border-radius: 1rem;
+  width: 80vw;
+  height: 120px;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e7c04;
+}
+
+@media (min-width: 420px) {
+  section.success {
+    width: 400px;
+    top: calc(50vh - 60px);
+    left: calc(50vw - 200px);
+  }
+}
