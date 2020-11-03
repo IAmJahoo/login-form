@@ -6,8 +6,9 @@
   "main": "src/index.js",
   "dependencies": {
     "@csstools/normalize.css": "11.0.1",
-    "@testing-library/react": "11.1.0",
     "autoprefixer": "10.0.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-scripts": "3.4.3"
@@ -21,5 +22,12 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.5%",
+    "not dead",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "ie <= 11",
+    "not op_mini all"
+  ]
 }

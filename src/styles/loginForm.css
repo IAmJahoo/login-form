@@ -27,6 +27,24 @@ input[type="password"] {
     rgb(255, 255, 255) -3px -3px 6px 0px inset;
 }
 
+fieldset > span {
+  display: flex;
+}
+
+input[type="checkbox"] {
+  margin-left: 0.5rem;
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(242, 244, 248);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.212) 3px 3px 6px 0px inset,
+    rgb(255, 255, 255) -3px -3px 6px 0px inset;
+}
+input[type="checkbox"]:checked {
+  background: #71c46a66;
+}
+
 label {
   font-size: 1.2rem;
 }
